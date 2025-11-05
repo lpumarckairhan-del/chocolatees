@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign Up - Clothing Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Clothing Shop</h1>
+    <nav>
+      <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+         <li><a href="signup.html">Sign Up</a></li>
+         <li><a href="login.html">Login</a></li>
+         <li><a href="clothes-collection.html">Collection</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Create an Account</h2>
+      <form id="signupForm" novalidate>
+        <label for="newusername">Username:</label>
+        <input type="text" id="newusername" name="newusername" required />
+
+        <label for="newemail">Email:</label>
+        <input type="email" id="newemail" name="newemail" required />
+
+        <label for="newpassword">Password:</label>
+        <input type="password" id="newpassword" name="newpassword" required />
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="signupMessage" class="hidden"></p>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Clothing Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
